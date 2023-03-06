@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		EB99FB1629B50AD60099FFAA /* Proclaim_ControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99FB1529B50AD60099FFAA /* Proclaim_ControllerApp.swift */; };
-		EB99FB1829B50AD60099FFAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99FB1729B50AD60099FFAA /* ContentView.swift */; };
 		EB99FB1A29B50AD90099FFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB99FB1929B50AD90099FFAA /* Assets.xcassets */; };
 		EB99FB1D29B50AD90099FFAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB99FB1C29B50AD90099FFAA /* Preview Assets.xcassets */; };
+		EB99FB2629B567900099FFAA /* API_Calls.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99FB2529B567900099FFAA /* API_Calls.swift */; };
+		EB99FB2829B577550099FFAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB99FB2729B577550099FFAA /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB99FB1229B50AD60099FFAA /* Proclaim Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proclaim Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB99FB1529B50AD60099FFAA /* Proclaim_ControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proclaim_ControllerApp.swift; sourceTree = "<group>"; };
-		EB99FB1729B50AD60099FFAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB99FB1929B50AD90099FFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB99FB1C29B50AD90099FFAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB99FB2529B567900099FFAA /* API_Calls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_Calls.swift; sourceTree = "<group>"; };
+		EB99FB2729B577550099FFAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				EB99FB1529B50AD60099FFAA /* Proclaim_ControllerApp.swift */,
-				EB99FB1729B50AD60099FFAA /* ContentView.swift */,
+				EB99FB2729B577550099FFAA /* ContentView.swift */,
 				EB99FB1929B50AD90099FFAA /* Assets.xcassets */,
 				EB99FB1B29B50AD90099FFAA /* Preview Content */,
+				EB99FB2529B567900099FFAA /* API_Calls.swift */,
 			);
 			path = "Proclaim Controller";
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB99FB1829B50AD60099FFAA /* ContentView.swift in Sources */,
+				EB99FB2629B567900099FFAA /* API_Calls.swift in Sources */,
 				EB99FB1629B50AD60099FFAA /* Proclaim_ControllerApp.swift in Sources */,
+				EB99FB2829B577550099FFAA /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
